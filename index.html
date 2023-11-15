@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Movie hub</title>
+    <!-- font awesome icons cdn -->
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins&family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "main.css">
+</head>
+<body>
+    
+    <div class = "wrapper">
+        <!-- logo -->
+        <div class = "header">
+            <div class = "con">      
+            <a href="index.html" class="logo">Movie <span>hub</span></a>
+            <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="#">Movies</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Anime</a>
+            <a href="#">Login</a>
+            </nav>
+            </div>
+            
+        </div>
+        <!-- end of logo -->
+        <!-- search container -->
+        <div class="hero hero-img">
+            <div class="inner-content">
+              <div class="hero-title">
+                <h2>Welcome</h2> <br>
+                <h3>
+                  Millions of movies, TV shows, and Anime to discover. Explore now
+                </h3>
+              </div>
+              <div class = "search-container">
+                <div class = "search-element">
+                    <h3>Search Movie:</h3>
+                    <input type = "text" class = "form-control" placeholder="Search Movie Title ..." id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()">
+    
+                    <div class = "search-list" id = "search-list">
+                        <!-- list here -->
+                        <!-- <div class = "search-list-item">
+                            <div class = "search-item-thumbnail">
+                                <img src = "medium-cover.jpg">
+                            </div>
+                            <div class = "search-item-info">
+                                <h3>Guardians of the Galaxy Vol. 2</h3>
+                                <p>2017</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- end of search container -->
+        <div class="main " id="main">
+            
+        </div>
+        <!-- result container -->
+            <div class = "result-container">
+                <div class = "result-grid" id = "result-grid">
+                    <!-- movie information here -->
+                    <!-- <div class = "movie-poster">
+                        <img src = "medium-cover.jpg" alt = "movie poster">
+                    </div>
+                    <div class = "movie-info">
+                        <h3 class = "movie-title">Guardians of the Galaxy Vol. 2</h3>
+                        <ul class = "movie-misc-info">
+                            <li class = "year">Year: 2017</li>
+                            <li class = "rated">Ratings: PG-13</li>
+                            <li class = "released">Released: 05 May 2017</li>
+                        </ul>
+                        <p class = "genre"><b>Genre:</b> Action, Adventure, Comedy</p>
+                        <p class = "writer"><b>Writer:</b> James Gunn, Don Abnett, Andy Lanning</p>
+                        <p class = "actors"><b>Actors: </b>Chris Pratt, Zoe Saldana, Dave Bautista</p>
+                        <p class = "plot"><b>Plot:</b> The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's ecounter with his father the ambitious celestial being Ego.</p>
+                        <p class = "language"><b>Language:</b> English</p>
+                        <p class = "awards"><b><i class = "fas fa-award"></i></b> Nominated for 1 Oscar</p>
+                    </div> -->
+                </div>
+            </div>
+        <!-- end of result container -->
+    </div>
+    <div class="footer">
+        <div class="footertext">
+            <p>Copyright &copy; 2023 by Movie hub | All Rights Reserved</p>
+        </div>
+        <div class="homelink">
+            <a href="mailto:pradeishmisara29@gmail.com"  target="_blank" ><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"  target="_blank" ><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"  target="_blank" ><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"  target="_blank" ><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" target="_blank" ><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+
+    <!-- movie app js -->
+    <script src = "script.js"></script>
+</body>
+</html>
