@@ -6,7 +6,8 @@ Welcome to the Movie Website! This website allows you to browse recent movie rel
 
 The website has been deployed using GitHub Pages. You can access it at the following link:
 
-[Movie Website](https://pradeish29.github.io/Movie-api/)
+https://pradeish29.github.io/Movie-api/
+
 
 ## Features
 
